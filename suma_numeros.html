@@ -1,0 +1,59 @@
+<!-- Escribir un programa que lea un entero positivo "n" introducido por el usuario y después muestre en pantalla la suma de todos-->
+<!--los enteros desde 1 hasta n (que de la impresión en el HTML)-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Suma de números</title>
+</head>
+
+<!--Aquí va nuestro Jumbotron-->
+
+<body>
+
+    <div>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4 text-center">Ejercicio de suma de números</h1>
+                <br>
+                <p class="lead text-center">Este es un programa que lee un número entero positivo "n" que es introducido
+                    por el usuario
+                    y después muestra en pantalla la suma de todos los enteros desde 1 hasta "n". La impresión de la
+                    información se realiza en el mismo archivo HTML
+            </div>
+        </div>
+    </div>
+
+<!--Aquí va nuestra card-->
+
+    <div class="container text-center">
+        <div class="card-body">
+            <h2> Ingresa tu número</h2>
+            <p style="font-size: 20px; ">Recuerda que debe ser un número entero positivo</p>
+            <br>
+            <label for="dato"> </label>
+            <input type="number" step="any" id="dato">
+            <br>
+            <br>
+            <button type="submit" id="enviar" class="btn btn-secondary" onclick="operacion () "> Enviar datos </button>
+            <br>
+            <br>
+            <br>
+            <h1 id="resultado" style="color:rgb(238, 52, 52) ;font-size: 25px;"><h1 />
+
+<!--!Para que nuestro resultado apareza dentro del HTMl, es importante mencionar el id, en este caso "resultado"-->
+
+        </div>
+    </div>
+
+    </div>
+    <script src="assets/js/suma_numeros.js"></script>
+</body>
+
+</html>
