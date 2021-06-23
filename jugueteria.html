@@ -1,0 +1,50 @@
+<!-- Una juguetería tiene mucho éxito en dos de sus productos: payasos y muñecas.
+     Suele hacer venta por correo y la empresa de logística les cobra por peso de cada
+      paquete así que deben calcular el peso de los payasos y muñecas que saldrán en cada 
+      paquete a demanda. Cada payaso pesa 112 g y cada muñeca 75 g. Escribir un programa que lea
+       el número de payasos y muñecas vendidos en el último pedido y calcule el peso total del paquete 
+       que será enviado. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Paquetes</title>
+
+</head>
+
+<body>
+
+    <h1 style="text-align:center;">Jugueteria</h1>
+
+    <form>
+
+        <p>
+
+            <label>Cantidad de muñecas: </label>
+            <input type="number" id="munecas" required />
+        </p>
+
+        <p>
+
+            <label>Cantidad de payasos: </label>
+            <input type="number" id="payasos" required />
+        </p>
+
+        <p>
+
+            <button type="submit" id="enviar" onclick="validarpaquetes()">Enviar</button>
+        </p>
+
+
+    </form>
+
+
+    <script src="/ABMODEL/assets/js/jugueteria.js"></script>
+</body>
+
+</html>

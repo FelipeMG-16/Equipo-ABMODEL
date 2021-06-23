@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Juguetería</title>
+  </head>
+  <body>
+    <div>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4 text-center">Ejercicio de pedidos de juguetería</h1>
+                <br>
+                <p class="lead text-center">Una juguetería tiene mucho éxito en dos de sus productos: payasos y muñecas. Suele hacer venta por correo y la empresa de logística les cobra por peso de cada paquete así que deben calcular el peso de los payasos y muñecas que saldrán en cada paquete a demanda. Cada payaso pesa 112 g y cada muñeca 75 g. Escribir un programa que lea el número de payasos y muñecas vendidos en el último pedido y calcule el peso total del paquete que será enviado (El paquete deberá pesar máximo 1Kg).
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="card-body">
+    <form>
+        <label><h4>Cantidad de Muñecas</h4></label>
+        <br>
+        <input type="number" id="munecas" step="any" required>
+        <br>
+        <br>
+        <label><h4>Cantidad de Payasos</h4></label>
+        <br>
+        <input type="number" id="payasos" step="any" required >    
+        <br>
+        <br>
+    <button type="submit" id="enviar" class="btn btn-secondary" onclick= "validarpaquetes ()">Enviar</button>
+    
+    </form>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="/ABMODEL/assets/js/jugueteriav2.js"></script>
+  </body>
+</html>
